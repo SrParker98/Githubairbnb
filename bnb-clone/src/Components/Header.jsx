@@ -16,9 +16,11 @@ export default function Header() {
 
       <div className="search-bar">
         <Rightfilter />
+
         <a className="b" href="">
           Cualquier lugar |
         </a>
+
         <a className="b" href="">
           Cualquier semana |
         </a>

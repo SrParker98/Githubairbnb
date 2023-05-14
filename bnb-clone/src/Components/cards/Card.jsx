@@ -20,13 +20,12 @@ export default function Card() {
           <Swiper
             modules={[Pagination, Navigation]}
             slidesPerView={1}
-            navigation={true}
             pagination={true}
             mousewheel={true}
           >
             {cardInfo.imgSrc.map((imageUrl) => (
               <SwiperSlide key={imageUrl}>
-                <img src={imageUrl} className="card-img" />
+                <img src={imageUrl} className="card-img img" />
               </SwiperSlide>
             ))}
           </Swiper>
